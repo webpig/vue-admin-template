@@ -1,6 +1,6 @@
 <template>
   <div id="header">
-    <div class="">后台管理系统</div>
+    <div class="">Vue 后台管理系统</div>
   </div>
 </template>
 

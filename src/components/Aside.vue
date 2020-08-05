@@ -29,71 +29,9 @@ export default {
       isCollapse: true,
       menus: [
         {
-          title: '学校管理',
-          index: 'school',
-          children: [
-            {
-              title: '查看学校',
-              index: 'viewSchool'
-            },
-            {
-              title: '城市管理',
-              index: 'city'
-            }
-          ]
-        },
-        {
-          title: '广告管理',
-          index: 'ad'
-        },
-        {
-          title: '订单管理',
-          index: 'order'
-        },
-        {
-          title: '用户管理',
+          title: '用户列表',
           index: 'user',
-          children: [
-            {
-              title: '用户列表',
-              index: 'userList'
-            },
-            {
-              title: '用户反馈',
-              index: 'userFeedback'
-            }
-          ]
         },
-        {
-          title: '账号汇总',
-          index: 'account',
-          children: [
-            {
-              title: '负责人列表',
-              index: 'principal',
-            },
-            {
-              title: '学校列表',
-              index: 'schoolList'
-            },
-            {
-              title: '店铺列表',
-              index: 'shopList'
-            }
-          ]
-        },
-        {
-          title: '资金管理',
-          index: 'funds'
-        },
-        {
-          title: '成员管理',
-          index: 'member'
-        },
-        {
-          title: '店铺分类',
-          index: 'shopClassification'
-        }
       ],
       defaultIndex: ''
     }
